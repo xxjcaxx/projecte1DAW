@@ -7,3 +7,4 @@ Edició des de github
 Edició brancaproves
 
 canvi local
+canvi en remot
