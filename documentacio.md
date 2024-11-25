@@ -15,14 +15,15 @@ La documentació no es fa al final. És una guia per al desenvolupament.
    - Video promocional
 1. Planificació
    - Necessitat de l'aplicació
+      - User Persona (Buscar en Canva plantilles)    
    - Altres solucions existents
    - Principals funcionalitats
-   - Guia d'estil
+   - Guia d'estil https://design.theguardian.com/, https://design.duolingo.com/, https://resources.specialolympics.org/marketing-and-communications/special-olympics-brand
       - Logo
       - Colors
       - Tipografies
       - Icones
-      - Layout  
+      - Layout  (Figma, mockflow...)
 2. Desenvolupament
    - Tecnologies emprades
    - Base de dades
@@ -33,13 +34,20 @@ La documentació no es fa al final. És una guia per al desenvolupament.
    - UML
    - Casos d'ús
    - Estructura del client
-   - Estructura del servidor
-   - Documentació Scrum
+   - Estructura del servidor. (API Documentation)
+   - Documentació Scrum (Backlog)
    - Instal·lació de servidors, llibreries...
    - Descripció del procés de desenvolupament
+     - Product Roadmap
 4. Manual d'usuari
-5. Problemes resolts
-6. Monetització
-7. Propostes de millora
-8. Bibliografia
-9. Annexos 
+   - Manual d'usuari complet
+   - How To Guides
+   - Quick Start
+   - Troubleshooting Guides
+   - FAQs
+   - Comunity Docs 
+6. Problemes resolts
+7. Monetització
+8. Propostes de millora
+9. Bibliografia
+10. Annexos 
