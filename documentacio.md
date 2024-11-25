@@ -35,6 +35,8 @@ La documentació no es fa al final. És una guia per al desenvolupament.
    - Estructura del client
    - Estructura del servidor
    - Documentació Scrum
+   - Instal·lació de servidors, llibreries...
+   - Descripció del procés de desenvolupament
 4. Manual d'usuari
 5. Problemes resolts
 6. Monetització
