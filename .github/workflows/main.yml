@@ -33,7 +33,7 @@ jobs:
           # Such a directory does *not* have to already exist in your repo,
           # it could be an output directory created dynamically
           # by your static website builder.
-          source-directory: docs/build
+          source-directory: documentacio/build
 
           # Optional. Default value "gh-pages".
           # It specifies the temporary branch which hosts the static website.
