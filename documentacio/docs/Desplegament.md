@@ -42,6 +42,14 @@ jobs:
       - name: Generate your content
         run: echo "Optional placeholder. Put your project's static website generator command here."
 
+      - name: Install dependencies
+        working-directory: documentacio
+        run: npm ci
+        
+      - name: nmp build
+        working-directory: documentacio
+        run: npm run build
+
       - name: Publish current workdir (which contains generated content) to GitHub Pages
         uses: rayluo/github-pages-overwriter@v1.3
 
