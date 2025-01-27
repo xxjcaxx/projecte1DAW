@@ -77,5 +77,5 @@ Cal modificar les rutes si és necessari.
 
 D'aquesta manera, utilitzem un action preconfigurat `rayluo/github-pages-overwriter@v1.3` que sobreescriu tota la branca `gh-pages` cada vegada. 
 
-El problema és que tenim que fer el `build` cada vegada. Podem automatizar el build i executar-ho al github. 
+També tenim un script que instal·la les dependències i fà el `build` de docusaurus.
 
