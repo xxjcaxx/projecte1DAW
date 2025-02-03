@@ -62,4 +62,4 @@ La documentació no es fa al final. És una guia per al desenvolupament.
 
 * Cal fer un projecte de web estàtica per a documentació com pot ser `Docusaurus` o `Jupyter Books`. En el nostre cas el farem en https://docusaurus.io/docs 
 * Cal crear el Github Pages corresponent. 
-* Cal crear el Github Action per publicar automàticament.
+* Cal crear el Github Action per publicar automàticament. 
