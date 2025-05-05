@@ -79,6 +79,7 @@ D'aquesta manera, utilitzem un action preconfigurat `rayluo/github-pages-overwri
 
 També tenim un script que instal·la les dependències i fà el `build` de docusaurus.
 
+Alternativa: https://github.com/peaceiris/actions-gh-pages
 
 ## Desplegar PHP
 
