@@ -79,3 +79,37 @@ D'aquesta manera, utilitzem un action preconfigurat `rayluo/github-pages-overwri
 
 També tenim un script que instal·la les dependències i fà el `build` de docusaurus.
 
+
+## Desplegar PHP
+
+Es pot fer un action com aquest:
+
+```yaml
+name: Deploy 
+
+on:
+  push:
+    branches:
+      - 'master'
+
+jobs:
+  publish:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USER }}
+          password: ${{ secrets.SFTP_PASS }}
+          local-dir: ./build/
+          server-dir: /public_html/materiales/
+```
+
+
+Cal canviar les rutes i crear els secrets.
